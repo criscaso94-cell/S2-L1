@@ -31,9 +31,9 @@ let myName = " Cristian"
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-let b = 12
-let c = 20
-let z = x+y 
+let a = 12
+let b = 20
+let c = a + b 
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -46,15 +46,14 @@ let x = 12
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
- let myName = "Caso" 
+ myName = "Caso" 
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let x = 12
-let a = 4
-let ax = a - x 
+let y = 4
+let z = y - x 
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -64,10 +63,11 @@ let ax = a - x
 
 let name1 = "john"
 let name2 = "John"
-name1 !== name2 
+console.log("john" !== "John")
 
-EXTRA:
-consol.log(name1.toLowerCase()===consol.log(name2.toLowerCase())
+//extra//
+console.log(name1.toLowerCase()===name2.toLowerCase())
+
 
 
 
